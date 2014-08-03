@@ -1,0 +1,52 @@
+Cmp-Mod V01 Created by PcbNew date = 4/24/2014 5:43:38 PM
+
+BeginCmp
+TimeStamp = /53597CBC;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = C1_noborder;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597C70;
+Reference = IC1;
+ValeurCmp = ATTINY85-P;
+IdModule  = DIP-8__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597DA7;
+Reference = J1;
+ValeurCmp = ICSP;
+IdModule  = ICSP_shifted_pads;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597F31;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = pin_strip_4_shifted;
+EndCmp
+
+BeginCmp
+TimeStamp = /53597F3E;
+Reference = P2;
+ValeurCmp = CONN_4;
+IdModule  = pin_strip_4_shifted;
+EndCmp
+
+BeginCmp
+TimeStamp = /53598420;
+Reference = P3;
+ValeurCmp = HEADER_1;
+IdModule  = ML_1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /5359842D;
+Reference = P4;
+ValeurCmp = HEADER_1;
+IdModule  = ML_1pin;
+EndCmp
+
+EndListe

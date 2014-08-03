@@ -1,0 +1,180 @@
+(pcb G:\SVN\EvilCodeMonkey\ATTinyX5Breakout\ATTinyX5Breakout.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2013-07-07 BZR 4022)-stable")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  198501 -160401  198391 -160391  198284 -160363  198184 -160316
+            198093 -160252  198015 -160174  197951 -160084  197904 -159983
+            197876 -159876  197866 -159766  197866 -145034  197876 -144924
+            197904 -144817  197951 -144716  198015 -144626  198093 -144548
+            198184 -144484  198284 -144437  198391 -144409  198501 -144399
+            210439 -144399  210549 -144409  210656 -144437  210756 -144484
+            210847 -144548  210925 -144626  210989 -144716  211036 -144817
+            211064 -144924  211074 -145034  211074 -159766  211064 -159876
+            211036 -159983  210989 -160084  210925 -160174  210847 -160252
+            210756 -160316  210656 -160363  210549 -160391  210439 -160401
+            198501 -160401)
+    )
+    (via "Via[0-1]_889:635_um" "Via[0-1]_889:0_um")
+    (rule
+      (width 254)
+      (clearance 254.1)
+      (clearance 254.1 (type default_smd))
+      (clearance 63.5 (type smd_smd))
+    )
+  )
+  (placement
+    (component pin_strip_4_shifted
+      (place P1 203200 -158750 front 0 (PN CONN_4))
+      (place P2 203200 -146050 front 0 (PN CONN_4))
+    )
+    (component "DIP-8__300"
+      (place IC1 203200 -152400 front 0 (PN "ATTINY85-P"))
+    )
+    (component ICSP_shifted_pads
+      (place J1 203200 -152400 back 180 (PN ICSP))
+    )
+    (component ML_1pin
+      (place P3 209931 -148590 front 0 (PN HEADER_1))
+      (place P4 209931 -156210 front 0 (PN HEADER_1))
+    )
+    (component C1_noborder
+      (place C1 209931 -152400 front 270 (PN 0.1uF))
+    )
+  )
+  (library
+    (image pin_strip_4_shifted
+      (pin Oval[A][0,127]Pad_1524x2199.64_um 1 -3810 -127)
+      (pin "Oval[A][0,-127]Pad_1524x2199.64_um" 2 -1270 127)
+      (pin Oval[A][0,127]Pad_1524x2199.64_um 3 1270 -127)
+      (pin "Oval[A][0,-127]Pad_1524x2199.64_um" 4 3810 127)
+    )
+    (image "DIP-8__300"
+      (outline (path signal 254  -5080 1270  -3810 1270))
+      (outline (path signal 254  -3810 1270  -3810 -1270))
+      (outline (path signal 254  -3810 -1270  -5080 -1270))
+      (outline (path signal 254  -5080 2540  5080 2540))
+      (outline (path signal 254  5080 2540  5080 -2540))
+      (outline (path signal 254  5080 -2540  -5080 -2540))
+      (outline (path signal 254  -5080 -2540  -5080 2540))
+      (pin Rect[A]Pad_1397x1397_um 1 -3810 -3810)
+      (pin Round[A]Pad_1397_um 2 -1270 -3810)
+      (pin Round[A]Pad_1397_um 3 1270 -3810)
+      (pin Round[A]Pad_1397_um 4 3810 -3810)
+      (pin Round[A]Pad_1397_um 5 3810 3810)
+      (pin Round[A]Pad_1397_um 6 1270 3810)
+      (pin Round[A]Pad_1397_um 7 -1270 3810)
+      (pin Round[A]Pad_1397_um 8 -3810 3810)
+    )
+    (image ICSP_shifted_pads
+      (pin Rect[A]Pad_1524x1524_um 1 -2540 -1397)
+      (pin Round[A]Pad_1524_um 2 -2540 1397)
+      (pin Round[A]Pad_1524_um 3 0 -1143)
+      (pin Round[A]Pad_1524_um 4 0 1143)
+      (pin Round[A]Pad_1524_um 5 2540 -1397)
+      (pin Round[A]Pad_1524_um 6 2540 1397)
+    )
+    (image ML_1pin
+      (pin Rect[A]Pad_1524x1524_um 1 0 0)
+    )
+    (image C1_noborder
+      (pin Round[A]Pad_1397_um 1 -1270 0)
+      (pin Round[A]Pad_1397_um 2 1270 0)
+    )
+    (padstack Round[A]Pad_1397_um
+      (shape (circle F.Cu 1397))
+      (shape (circle B.Cu 1397))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1524_um
+      (shape (circle F.Cu 1524))
+      (shape (circle B.Cu 1524))
+      (attach off)
+    )
+    (padstack Oval[A][0,127]Pad_1524x2199.64_um
+      (shape (path F.Cu 1524  0 -210.82  0 464.82))
+      (shape (path B.Cu 1524  0 -210.82  0 464.82))
+      (attach off)
+    )
+    (padstack "Oval[A][0,-127]Pad_1524x2199.64_um"
+      (shape (path F.Cu 1524  0 -464.82  0 210.82))
+      (shape (path B.Cu 1524  0 -464.82  0 210.82))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1397x1397_um
+      (shape (rect F.Cu -698.5 -698.5 698.5 698.5))
+      (shape (rect B.Cu -698.5 -698.5 698.5 698.5))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1524x1524_um
+      (shape (rect F.Cu -762 -762 762 762))
+      (shape (rect B.Cu -762 -762 762 762))
+      (attach off)
+    )
+    (padstack "Via[0-1]_889:635_um"
+      (shape (circle F.Cu 889))
+      (shape (circle B.Cu 889))
+      (attach off)
+    )
+    (padstack "Via[0-1]_889:0_um"
+      (shape (circle F.Cu 889))
+      (shape (circle B.Cu 889))
+      (attach off)
+    )
+  )
+  (network
+    (net GND
+      (pins P1-4 IC1-4 J1-6 P4-1 C1-2)
+    )
+    (net MISO
+      (pins IC1-6 P2-3 J1-1)
+    )
+    (net MOSI
+      (pins IC1-5 P2-4 J1-4)
+    )
+    (net PB3
+      (pins P1-2 IC1-2)
+    )
+    (net PB4
+      (pins P1-3 IC1-3)
+    )
+    (net RST
+      (pins P1-1 IC1-1 J1-5)
+    )
+    (net SCK
+      (pins IC1-7 P2-2 J1-3)
+    )
+    (net VCC
+      (pins IC1-8 P2-1 J1-2 P3-1 C1-1)
+    )
+    (class kicad_default "" GND MISO MOSI PB3 PB4 RST SCK VCC
+      (circuit
+        (use_via Via[0-1]_889:635_um)
+      )
+      (rule
+        (width 254)
+        (clearance 254.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
